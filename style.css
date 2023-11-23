@@ -48,14 +48,14 @@ body{
 }
 
 .page .header h1 {
-    font-size: 2rem;
+    font-size: 20px;
     text-align: center;
     color: #eee;
 
 }
 
 .page .header p {
-    font-size: 1rem;
+    font-size: 15px;
     margin-bottom: 5px;
     text-align: center;
     color: #eee;
@@ -82,7 +82,7 @@ body{
 .page .form input::placeholder{
     padding-left: .5rem;
     color: #eee;
-
+    font-style: italic #eee;
 }
 
 .page .form  button {
@@ -112,11 +112,11 @@ body{
     margin-right: 10px;
     border-radius: 5px;
     pointer-events: none;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(190, 117, 33);
 }
 
 .page .qr-code img {
-    width: 170px;
+    width: 150px;
 }
 
 .page.active .qr-code{
