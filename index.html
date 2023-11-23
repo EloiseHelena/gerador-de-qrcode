@@ -10,21 +10,21 @@
     
     <body>
         <div class="page">
-            <form method="POST" class="form">
-                <h1>Gerador de QR Code</h1>
-                <p>Cole ou digite uma url para gerar o QR Code.</p>
-                <input type="text" required placeholder="Insira aqui" autofocus="true" />
-                <button type="submit" class="btn" >GERAR QR CODE</button>
-            </form>
-
-            <footer class="qr-code">
-
-                <img src="" alt="" class="img">
-
-            </footer>
+            <div class="header-form">
+                <div class="header">
+                    <h1>Gerador de QR Code</h1>
+                    <p>Cole ou digite a URL: </p>
+                </div>
+                <main class="form">
+                    <input type="text"  placeholder="Insira a URL" name="" id="inputValue">
+                    <button id="btnValue" >Gerar QR Code</button>
+                </main>
+            </div>
+            <main class="qr-code">
+                <img src="" id="imgQrCode" alt="">
+            </main>
         </div>
     
-    
-         <script src="index.js"></script>
+        <script src="./script.js"></script>
     </body>
     </html>
